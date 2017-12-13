@@ -1,2 +1,5 @@
-﻿  main.cpp
-  Mermory.vcxproj -> C:\Users\pierr\source\repos\NarrativeDesignExercice\trunk\x64\Debug\Mermory.exe
+﻿  play_01.cpp
+  main.cpp
+c:\hello\narrativedesignexercise\trunk\mermory\main.cpp(10): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\conio.h(452): note: see declaration of 'getch'
+  Generating Code...

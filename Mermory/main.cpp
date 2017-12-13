@@ -1,28 +1,31 @@
 #include "main.h"
-void sleepMs(int time){
+
+void sleepMs(int time) {
 	sleep_until(system_clock::now() + microseconds(time));
 }
+
 void main() {
-	//cout << "Hello World !" ;
 	//start();
 	hackNasa();
-	_getch();
+	getch();
 }
+
 void start() {
 	sleep_until(system_clock::now() + seconds(1));
 	cout << endl << endl;
 	cout << "Welcome"; 
 	sleep_until(system_clock::now() + microseconds(400000));
-		cout << " to";
-		sleep_until(system_clock::now() + microseconds(400000));
-		cout << " My "; 
-		sleep_until(system_clock::now() + microseconds(400000));
-		cout << "Memories ";
-		cout << endl << endl << endl;
+	cout << " to";
+	sleep_until(system_clock::now() + microseconds(400000));
+	cout << " My "; 
+	sleep_until(system_clock::now() + microseconds(400000));
+	cout << "Memories ";
+	cout << endl << endl << endl;
 		
 	sleep_until(system_clock::now() + seconds(1));
 	mainMenu();
 }
+
 void mainMenu() {
 	cout << "Play - (P) \n";
 	cout << "Option - (O) \n" ;
@@ -46,6 +49,7 @@ void mainMenu() {
 		break;
 	}
 }
+
 Menu menuChoise() {
 	getline(cin, rep);
 	if (rep == "P" || rep == "p") {
@@ -61,11 +65,12 @@ Menu menuChoise() {
 		return Menu::None;
 	}
 }
-void play(){
+
+void play() {
 	crash();
 }
-void crash() 
-{
+
+void crash() {
 	while (1) {
 		sleepMs(1);
 		system("Color 1A");
