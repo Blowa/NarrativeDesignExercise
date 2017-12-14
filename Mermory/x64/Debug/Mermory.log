@@ -1,5 +1,3 @@
-﻿  play_01.cpp
-  main.cpp
-c:\hello\narrativedesignexercise\trunk\mermory\main.cpp(10): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\conio.h(452): note: see declaration of 'getch'
-  Generating Code...
+﻿  main.cpp
+MainMenu.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > rep" (?rep@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in main.obj
+C:\hello\NarrativeDesignExercise\trunk\x64\Debug\Mermory.exe : fatal error LNK1169: one or more multiply defined symbols found
